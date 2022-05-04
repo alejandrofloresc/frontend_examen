@@ -1,0 +1,73 @@
+
+body{
+background-color: #e0eafa;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.card{
+  max-width: 65%;
+}
+
+.img-temp{
+max-width: 60%;
+
+}
+.card-title{
+  position: absolute;
+  padding: 4%;
+  
+}
+
+.card-date{
+  position: absolute;
+  padding-top: 9%;
+  padding-left: 5%;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 5%;
+  padding-top: 35%;
+
+}
+
+.card-desc{
+  position: absolute;
+   padding-left: 5%;
+   padding-top: 40%;
+   
+}
+
+.container{
+  padding-top: 5rem;
+
+}
+
+@media screen and (max-width: 770px) {
+  .card-date{
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 5%;
+  }
+  
+  .card-temp{
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 100%;
+  
+  }
+  
+  .card-desc{
+    position: absolute;
+     padding-left: 5%;
+     padding-top: 110%;
+     
+  }
+
+  
+}
+
